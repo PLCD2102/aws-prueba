@@ -42,3 +42,4 @@ jobs:
           echo test, and deploy your project.
       - name: check dir
         run: ls
+        run: aws s3 ls
